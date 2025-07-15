@@ -4,7 +4,7 @@ pipeline {
     tools {
         // Specify the JDK and Maven tools configured in Jenkins
         jdk 'JDK_17' // Name of your JDK configuration
-        maven 'Maven_3.8.x' // Name of your Maven configuration
+        maven 'Maven_3.9.10' // Name of your Maven configuration
     }
 
     stages {
